@@ -26,10 +26,13 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build the header
+      - name: Install the build tools
+        run: npm ci
+
+      - name: Build the header and the cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/build-header.mjs
+        run: npm run build
 
       - name: Commit the header if it changed
         run: |

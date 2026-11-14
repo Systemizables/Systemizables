@@ -1,4 +1,4 @@
-// Colours and fonts shared by the generated profile images.
+// Colours shared by the generated profile images.
 // Every image is built twice, once per GitHub colour scheme.
 
 export const themes = {
@@ -7,6 +7,7 @@ export const themes = {
     bgTo: '#252D27',
     border: '#373C38',
     text: '#F1F2ED',
+    pageText: '#C9CEC6',
     secondary: '#ABB0AA',
     muted: '#7F867F',
     accent: '#7E8E5F',
@@ -20,6 +21,7 @@ export const themes = {
     bgTo: '#E9ECE1',
     border: '#D3D8C9',
     text: '#191C1B',
+    pageText: '#30362F',
     secondary: '#4A504A',
     muted: '#6E756C',
     accent: '#6B7B4C',
@@ -28,12 +30,6 @@ export const themes = {
     // Contributions in a day, from none to many: one hue, pale to deep.
     levels: ['#D3D8C8', '#B4C191', '#8E9D6A', '#64744A', '#3B4731'],
   },
-};
-
-export const fonts = {
-  serif: "Georgia, 'Times New Roman', serif",
-  sans: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
-  mono: "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
 };
 
 export function escapeXml(value) {

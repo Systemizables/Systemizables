@@ -9,7 +9,8 @@
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { themes, fonts, escapeXml } from './theme.mjs';
+import { themes, escapeXml } from './theme.mjs';
+import { fonts, drawText } from './text.mjs';
 
 const LOGIN = 'Systemizables';
 const NAME = 'Joseph Sfeir';
@@ -95,10 +96,16 @@ function buildDots(weeks, theme) {
   return dots.join('\n    ');
 }
 
-function buildLines() {
+function buildLines(theme) {
   return LINES.map((line, index) => {
     const delay = index * SECONDS_PER_LINE;
-    return `<text class="line" x="68" y="170" style="animation-delay:${delay}s">${escapeXml(line)}</text>`;
+    return drawText(fonts.mono, line, {
+      x: 68,
+      y: 170,
+      size: 14,
+      fill: theme.accentText,
+      attributes: `class="line" style="animation-delay:${delay}s"`,
+    });
   }).join('\n    ');
 }
 
@@ -121,10 +128,7 @@ function buildHeader(theme, weeks) {
     </linearGradient>
   </defs>
   <style>
-    .name { font: 400 54px ${fonts.serif}; fill: ${theme.text}; }
-    .tagline { font: 400 17px ${fonts.sans}; fill: ${theme.secondary}; }
-    .caption { font: 400 10px ${fonts.mono}; fill: ${theme.muted}; letter-spacing: 1px; }
-    .line { font: 400 14px ${fonts.mono}; fill: ${theme.accentText}; opacity: 0; animation: line ${lineLoop}s infinite; }
+    .line { opacity: 0; animation: line ${lineLoop}s infinite; }
     .dot { animation: settle ${LOOP_SECONDS}s ease-in-out infinite both; }
     @keyframes line {
       0% { opacity: 0; transform: translateY(6px); }
@@ -143,16 +147,16 @@ function buildHeader(theme, weeks) {
     }
   </style>
   <rect x="0.5" y="0.5" width="${WIDTH - 1}" height="${HEIGHT - 1}" rx="14" fill="url(#bg)" stroke="${theme.border}"/>
-  <text class="name" x="48" y="96">${escapeXml(NAME)}</text>
-  <text class="tagline" x="50" y="128">${escapeXml(TAGLINE)}</text>
+  ${drawText(fonts.display, NAME, { x: 48, y: 96, size: 54, fill: theme.text })}
+  ${drawText(fonts.body, TAGLINE, { x: 50, y: 128, size: 17, fill: theme.secondary })}
   <rect x="50" y="160" width="9" height="9" fill="${theme.accent}"/>
   <g>
-    ${buildLines()}
+    ${buildLines(theme)}
   </g>
   <g>
     ${buildDots(weeks, theme)}
   </g>
-  <text class="caption" x="${gridRight}" y="194" text-anchor="end">LAST ${WEEKS} WEEKS</text>
+  ${drawText(fonts.mono, `LAST ${WEEKS} WEEKS`, { x: gridRight, y: 194, size: 10, spacing: 1, anchor: 'end', fill: theme.muted })}
 </svg>
 `;
 }

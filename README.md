@@ -13,16 +13,19 @@
 
 I'm Joseph. I write full-stack TypeScript at Simly, study Computer & Communications Engineering at Antonine University, and build a couple of products on the side. Most of that work lives in private repositories, so this page is the summary.
 
-## What I'm working on
-
-<h3>
+<h2>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logos/simly-dark.svg" />
-    <img src="./assets/logos/simly-light.svg" height="30" alt="Simly" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-working-on-dark.svg" />
+    <img src="./assets/cards/heading-working-on-light.svg" height="22" alt="What I'm working on" />
   </picture>
-</h3>
+</h2>
 
-**Full-stack software engineer**
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-simly-dark.svg" />
+  <img width="100%" src="./assets/cards/project-simly-light.svg" alt="Simly. Full-stack software engineer. TypeScript, Node.js, Express, MongoDB, GraphQL." />
+</picture>
+</p>
 
 [Simly](https://www.simly.io/) is an eSIM marketplace with 3M+ users. I mostly build the internal tools its support and finance teams use, and I've started on Simly Concierge, a travel assistant.
 
@@ -31,17 +34,14 @@ I'm Joseph. I write full-stack TypeScript at Simly, study Computer & Communicati
 - Built Financial Advisor in Simly Desk, which tracks data usage, cost and user sessions from CDRs.
 - Synced WhatsApp support chats from Rasayel into Simly's systems with webhooks and GraphQL.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cnodejs%2Cexpress%2Cmongodb%2Cgraphql&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,mongodb,graphql&theme=light" height="36" alt="TypeScript, Node.js, Express, MongoDB, GraphQL" />
-</picture>
+<br />
 
-<h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logos/yallahjoz-dark.svg" />
-    <img src="./assets/logos/yallahjoz-light.svg" height="48" alt="YallaHjoz" />
-  </picture>
-</h3>
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-yallahjoz-dark.svg" />
+  <img width="100%" src="./assets/cards/project-yallahjoz-light.svg" alt="YallaHjoz. Table bookings for Zahle. HTML, CSS, JavaScript." />
+</picture>
+</p>
 
 YallaHjoz ("let's book") is table reservations for restaurants in Zahle. Most of them still take bookings by phone or WhatsApp and write them in a notebook, and none of the booking apps we checked list the city.
 
@@ -49,20 +49,14 @@ YallaHjoz ("let's book") is table reservations for restaurants in Zahle. Most of
 - I built a working demo of the host stand: a phone web app for the door with tonight's list, check-ins, seated guests and no-shows.
 - We designed the brand ourselves, from the Arabic calligraphy logo to the app icons.
 
+<br />
+
+<p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cjs&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=html,css,js&theme=light" height="36" alt="HTML, CSS, JavaScript" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/project-jay-dark.svg" />
+  <img width="100%" src="./assets/cards/project-jay-light.svg" alt="Jay. Private AI operator. TypeScript, NestJS, Next.js, PostgreSQL, Docker." />
 </picture>
-
-<h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logos/jay-dark.svg" />
-    <img src="./assets/logos/jay-light.svg" height="20" alt="" />
-  </picture>
-  Jay
-</h3>
-
-**Private AI operator**
+</p>
 
 Jay is a single-user AI operator: one conversation for personal, business, creative and investment work. It's a TypeScript monorepo with a NestJS API, a Next.js app and Postgres with pgvector.
 
@@ -70,49 +64,38 @@ Jay is a single-user AI operator: one conversation for personal, business, creat
 - Memory is scoped to personal, business and investments, so one context can't leak into another.
 - Background jobs on a Postgres queue flag what needs attention, grouped and rate-limited so they don't turn into noise.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cnestjs%2Cnextjs%2Cpostgres%2Cdocker&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,nestjs,nextjs,postgres,docker&theme=light" height="36" alt="TypeScript, NestJS, Next.js, PostgreSQL, Docker" />
-</picture>
-
-## Tools I use
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cjava%2Cpython%2Ccpp%2Cnodejs%2Cnestjs%2Cexpress%2Cspring%2Creact%2Cnextjs%2Cpostgres%2Cmongodb%2Cmysql%2Cgraphql%2Cdocker%2Cgit%2Cpostman&perline=9&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,js,java,python,cpp,nodejs,nestjs,express,spring,react,nextjs,postgres,mongodb,mysql,graphql,docker,git,postman&perline=9&theme=light" alt="TypeScript, JavaScript, Java, Python, C++, Node.js, NestJS, Express, Spring, React, Next.js, PostgreSQL, MongoDB, MySQL, GraphQL, Docker, Git, Postman" />
-</picture>
-
-## Activity
-
-<img src="https://streak-stats.demolab.com/?user=Systemizables&border_radius=8&border=373C38&background=191C1B&stroke=373C38&ring=7E8E5F&fire=9AA77F&currStreakNum=F1F2ED&sideNums=F1F2ED&currStreakLabel=9AA77F&sideLabels=ABB0AA&dates=191C1B" alt="Joseph's GitHub contribution streak, including private contributions" />
-
-## Earlier projects
+<h2>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/heading-earlier-dark.svg" />
+    <img src="./assets/cards/heading-earlier-light.svg" height="22" alt="Earlier projects" />
+  </picture>
+</h2>
 
 From my first account, [Systemizable](https://github.com/Systemizable).
 
 <p>
   <a href="https://github.com/Systemizable/JobPortal">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Systemizable/JobPortal/image?description=1&descriptionEditable=Spring%20Boot%20job%20board%20API%20with%20JWT%20auth%20and%20MongoDB&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Dark" />
-      <img width="49%" src="https://socialify.git.ci/Systemizable/JobPortal/image?description=1&descriptionEditable=Spring%20Boot%20job%20board%20API%20with%20JWT%20auth%20and%20MongoDB&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Light" alt="JobPortal: Spring Boot job board API with JWT auth and MongoDB" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/earlier-jobportal-dark.svg" />
+      <img width="49%" src="./assets/cards/earlier-jobportal-light.svg" alt="JobPortal: Spring Boot job board API with JWT auth and MongoDB" />
     </picture>
   </a>
   <a href="https://github.com/Systemizable/election-analysis-predictor">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Systemizable/election-analysis-predictor/image?description=1&descriptionEditable=Zahle%20election%20data%3A%20turnout%2C%20coalitions%20and%20forecasts&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Dark" />
-      <img width="49%" src="https://socialify.git.ci/Systemizable/election-analysis-predictor/image?description=1&descriptionEditable=Zahle%20election%20data%3A%20turnout%2C%20coalitions%20and%20forecasts&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Light" alt="Election analysis predictor: Zahle election data, turnout, coalitions and forecasts" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/earlier-election-dark.svg" />
+      <img width="49%" src="./assets/cards/earlier-election-light.svg" alt="Election analysis predictor: Zahle election data, turnout, coalitions and forecasts" />
     </picture>
   </a>
   <a href="https://github.com/Systemizable/SAA-Sports-Analysis-App">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Systemizable/SAA-Sports-Analysis-App/image?description=1&descriptionEditable=NBA%20and%20football%20stats%2C%20scraped%20and%20ranked%20into%20a%20GOAT%20list&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Dark" />
-      <img width="49%" src="https://socialify.git.ci/Systemizable/SAA-Sports-Analysis-App/image?description=1&descriptionEditable=NBA%20and%20football%20stats%2C%20scraped%20and%20ranked%20into%20a%20GOAT%20list&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Light" alt="Sports analysis app: NBA and football stats, scraped and ranked into a GOAT list" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/earlier-sports-dark.svg" />
+      <img width="49%" src="./assets/cards/earlier-sports-light.svg" alt="Sports analysis app: NBA and football stats, scraped and ranked into a GOAT list" />
     </picture>
   </a>
   <a href="https://github.com/Systemizable/agricrop">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Systemizable/agricrop/image?description=1&descriptionEditable=A%20community%20site%20where%20farmers%20advertise%20their%20produce&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Dark" />
-      <img width="49%" src="https://socialify.git.ci/Systemizable/agricrop/image?description=1&descriptionEditable=A%20community%20site%20where%20farmers%20advertise%20their%20produce&font=Bitter&language=1&name=1&owner=0&pattern=Plus&theme=Light" alt="AgriCrop: a community site where farmers advertise their produce" />
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/earlier-agricrop-dark.svg" />
+      <img width="49%" src="./assets/cards/earlier-agricrop-light.svg" alt="AgriCrop: a community site where farmers advertise their produce" />
     </picture>
   </a>
 </p>
@@ -129,4 +112,11 @@ From my first account, [Systemizable](https://github.com/Systemizable).
 
 </details>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&height=120&color=0:303C2B,100:202823&section=footer" alt="" />
+<br />
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/cards/footer-dark.svg" />
+    <img width="100%" src="./assets/cards/footer-light.svg" alt="" />
+  </picture>
+</p>
