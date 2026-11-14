@@ -1,11 +1,7 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&height=210&color=0:191C1B,100:252D27&text=Joseph%20Sfeir&fontFamily=Georgia&fontColor=F1F2ED&fontSize=66&fontAlignY=42&desc=Software%20engineer%20from%20Zahle%2C%20Lebanon&descSize=19&descAlignY=67&animation=fadeIn" alt="Joseph Sfeir, software engineer from Zahle, Lebanon" />
-</p>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Courier+Prime&weight=700&size=22&duration=3200&pause=1400&color=ABB0AA&center=true&vCenter=true&width=640&height=46&lines=Full-stack+engineer+at+Simly;Building+YallaHjoz%2C+table+bookings+for+Zahle;Building+Jay%2C+a+private+AI+operator;Studying+Computer+%26+Communications+Engineering" />
-    <img src="https://readme-typing-svg.demolab.com/?font=Courier+Prime&weight=700&size=22&duration=3200&pause=1400&color=3B4731&center=true&vCenter=true&width=640&height=46&lines=Full-stack+engineer+at+Simly;Building+YallaHjoz%2C+table+bookings+for+Zahle;Building+Jay%2C+a+private+AI+operator;Studying+Computer+%26+Communications+Engineering" alt="Full-stack engineer at Simly. Building YallaHjoz and Jay. Studying Computer and Communications Engineering." />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <img width="100%" src="./assets/header-light.svg" alt="Joseph Sfeir, software engineer from Zahle, Lebanon. Full-stack engineer at Simly. Building YallaHjoz and Jay. Studying Computer and Communications Engineering." />
   </picture>
 </p>
 

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" role="img" aria-labelledby="title desc">
+  <title id="title">Joseph Sfeir</title>
+  <desc id="desc">Software engineer from Zahle, Lebanon. Full-stack engineer at Simly. Building YallaHjoz, table bookings for Zahle. Building Jay, a private AI operator. Studying Computer &amp; Communications Engineering. The dot grid is my contribution calendar for the last 12 weeks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F7F2"/>
+      <stop offset="1" stop-color="#E9ECE1"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name { font: 400 54px Georgia, 'Times New Roman', serif; fill: #191C1B; }
+    .tagline { font: 400 17px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4A504A; }
+    .caption { font: 400 10px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #6E756C; letter-spacing: 1px; }
+    .line { font: 400 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #3B4731; opacity: 0; animation: line 16s infinite; }
+    .dot { animation: settle 12s ease-in-out infinite both; }
+    @keyframes line {
+      0% { opacity: 0; transform: translateY(6px); }
+      3.00%, 22.00% { opacity: 1; transform: translateY(0); }
+      25.00%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes settle {
+      0%, 10% { transform: translate(var(--dx), var(--dy)); opacity: 0.35; }
+      40%, 78% { transform: translate(0, 0); opacity: 1; }
+      100% { transform: translate(var(--dx), var(--dy)); opacity: 0.35; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dot { animation: none; }
+      .line { animation: none; }
+      .line:first-of-type { opacity: 1; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="839" height="219" rx="14" fill="url(#bg)" stroke="#D3D8C9"/>
+  <text class="name" x="48" y="96">Joseph Sfeir</text>
+  <text class="tagline" x="50" y="128">Software engineer from Zahle, Lebanon</text>
+  <rect x="50" y="160" width="9" height="9" fill="#6B7B4C"/>
+  <g>
+    <text class="line" x="68" y="170" style="animation-delay:0s">Full-stack engineer at Simly</text>
+    <text class="line" x="68" y="170" style="animation-delay:4s">Building YallaHjoz, table bookings for Zahle</text>
+    <text class="line" x="68" y="170" style="animation-delay:8s">Building Jay, a private AI operator</text>
+    <text class="line" x="68" y="170" style="animation-delay:12s">Studying Computer &amp; Communications Engineering</text>
+  </g>
+  <g>
+    <circle class="dot" cx="550" cy="36" r="3.5" fill="#D3D8C8" style="--dx:-3px;--dy:12px;animation-delay:0.00s"/>
+    <circle class="dot" cx="550" cy="57" r="3.5" fill="#B4C191" style="--dx:-48px;--dy:-2px;animation-delay:0.05s"/>
+    <circle class="dot" cx="550" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-44px;--dy:26px;animation-delay:0.10s"/>
+    <circle class="dot" cx="550" cy="99" r="3.5" fill="#B4C191" style="--dx:44px;--dy:-29px;animation-delay:0.15s"/>
+    <circle class="dot" cx="550" cy="120" r="3.5" fill="#D3D8C8" style="--dx:48px;--dy:-49px;animation-delay:0.20s"/>
+    <circle class="dot" cx="550" cy="141" r="3.5" fill="#B4C191" style="--dx:57px;--dy:-35px;animation-delay:0.25s"/>
+    <circle class="dot" cx="550" cy="162" r="3.5" fill="#D3D8C8" style="--dx:2px;--dy:-28px;animation-delay:0.30s"/>
+    <circle class="dot" cx="572" cy="36" r="3.5" fill="#B4C191" style="--dx:58px;--dy:54px;animation-delay:0.05s"/>
+    <circle class="dot" cx="572" cy="57" r="3.5" fill="#D3D8C8" style="--dx:24px;--dy:6px;animation-delay:0.10s"/>
+    <circle class="dot" cx="572" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-51px;--dy:-48px;animation-delay:0.15s"/>
+    <circle class="dot" cx="572" cy="99" r="3.5" fill="#D3D8C8" style="--dx:30px;--dy:30px;animation-delay:0.20s"/>
+    <circle class="dot" cx="572" cy="120" r="3.5" fill="#D3D8C8" style="--dx:-18px;--dy:46px;animation-delay:0.25s"/>
+    <circle class="dot" cx="572" cy="141" r="3.5" fill="#D3D8C8" style="--dx:19px;--dy:-48px;animation-delay:0.30s"/>
+    <circle class="dot" cx="572" cy="162" r="3.5" fill="#D3D8C8" style="--dx:9px;--dy:-30px;animation-delay:0.35s"/>
+    <circle class="dot" cx="594" cy="36" r="3.5" fill="#D3D8C8" style="--dx:-68px;--dy:51px;animation-delay:0.10s"/>
+    <circle class="dot" cx="594" cy="57" r="3.5" fill="#D3D8C8" style="--dx:-46px;--dy:37px;animation-delay:0.15s"/>
+    <circle class="dot" cx="594" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-55px;--dy:54px;animation-delay:0.20s"/>
+    <circle class="dot" cx="594" cy="99" r="3.5" fill="#D3D8C8" style="--dx:-2px;--dy:-28px;animation-delay:0.25s"/>
+    <circle class="dot" cx="594" cy="120" r="3.5" fill="#64744A" style="--dx:58px;--dy:-4px;animation-delay:0.30s"/>
+    <circle class="dot" cx="594" cy="141" r="3.5" fill="#B4C191" style="--dx:53px;--dy:8px;animation-delay:0.35s"/>
+    <circle class="dot" cx="594" cy="162" r="3.5" fill="#B4C191" style="--dx:9px;--dy:17px;animation-delay:0.40s"/>
+    <circle class="dot" cx="616" cy="36" r="3.5" fill="#D3D8C8" style="--dx:71px;--dy:30px;animation-delay:0.15s"/>
+    <circle class="dot" cx="616" cy="57" r="3.5" fill="#8E9D6A" style="--dx:-39px;--dy:-23px;animation-delay:0.20s"/>
+    <circle class="dot" cx="616" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-59px;--dy:32px;animation-delay:0.25s"/>
+    <circle class="dot" cx="616" cy="99" r="3.5" fill="#D3D8C8" style="--dx:52px;--dy:-52px;animation-delay:0.30s"/>
+    <circle class="dot" cx="616" cy="120" r="3.5" fill="#D3D8C8" style="--dx:14px;--dy:47px;animation-delay:0.35s"/>
+    <circle class="dot" cx="616" cy="141" r="3.5" fill="#B4C191" style="--dx:-70px;--dy:-3px;animation-delay:0.40s"/>
+    <circle class="dot" cx="616" cy="162" r="3.5" fill="#D3D8C8" style="--dx:10px;--dy:-2px;animation-delay:0.45s"/>
+    <circle class="dot" cx="638" cy="36" r="3.5" fill="#D3D8C8" style="--dx:45px;--dy:34px;animation-delay:0.20s"/>
+    <circle class="dot" cx="638" cy="57" r="3.5" fill="#8E9D6A" style="--dx:-15px;--dy:4px;animation-delay:0.25s"/>
+    <circle class="dot" cx="638" cy="78" r="3.5" fill="#D3D8C8" style="--dx:52px;--dy:-46px;animation-delay:0.30s"/>
+    <circle class="dot" cx="638" cy="99" r="3.5" fill="#D3D8C8" style="--dx:-11px;--dy:-13px;animation-delay:0.35s"/>
+    <circle class="dot" cx="638" cy="120" r="3.5" fill="#D3D8C8" style="--dx:53px;--dy:35px;animation-delay:0.40s"/>
+    <circle class="dot" cx="638" cy="141" r="3.5" fill="#D3D8C8" style="--dx:59px;--dy:-42px;animation-delay:0.45s"/>
+    <circle class="dot" cx="638" cy="162" r="3.5" fill="#D3D8C8" style="--dx:-33px;--dy:-5px;animation-delay:0.50s"/>
+    <circle class="dot" cx="660" cy="36" r="3.5" fill="#D3D8C8" style="--dx:-38px;--dy:-16px;animation-delay:0.25s"/>
+    <circle class="dot" cx="660" cy="57" r="3.5" fill="#B4C191" style="--dx:-9px;--dy:21px;animation-delay:0.30s"/>
+    <circle class="dot" cx="660" cy="78" r="3.5" fill="#B4C191" style="--dx:-56px;--dy:28px;animation-delay:0.35s"/>
+    <circle class="dot" cx="660" cy="99" r="3.5" fill="#D3D8C8" style="--dx:46px;--dy:40px;animation-delay:0.40s"/>
+    <circle class="dot" cx="660" cy="120" r="3.5" fill="#B4C191" style="--dx:46px;--dy:-28px;animation-delay:0.45s"/>
+    <circle class="dot" cx="660" cy="141" r="3.5" fill="#D3D8C8" style="--dx:61px;--dy:41px;animation-delay:0.50s"/>
+    <circle class="dot" cx="660" cy="162" r="3.5" fill="#D3D8C8" style="--dx:47px;--dy:25px;animation-delay:0.55s"/>
+    <circle class="dot" cx="682" cy="36" r="3.5" fill="#D3D8C8" style="--dx:-39px;--dy:-15px;animation-delay:0.30s"/>
+    <circle class="dot" cx="682" cy="57" r="3.5" fill="#B4C191" style="--dx:-72px;--dy:52px;animation-delay:0.35s"/>
+    <circle class="dot" cx="682" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-72px;--dy:52px;animation-delay:0.40s"/>
+    <circle class="dot" cx="682" cy="99" r="3.5" fill="#D3D8C8" style="--dx:1px;--dy:54px;animation-delay:0.45s"/>
+    <circle class="dot" cx="682" cy="120" r="3.5" fill="#D3D8C8" style="--dx:40px;--dy:-45px;animation-delay:0.50s"/>
+    <circle class="dot" cx="682" cy="141" r="3.5" fill="#B4C191" style="--dx:57px;--dy:42px;animation-delay:0.55s"/>
+    <circle class="dot" cx="682" cy="162" r="3.5" fill="#B4C191" style="--dx:74px;--dy:-15px;animation-delay:0.60s"/>
+    <circle class="dot" cx="704" cy="36" r="3.5" fill="#B4C191" style="--dx:57px;--dy:-8px;animation-delay:0.35s"/>
+    <circle class="dot" cx="704" cy="57" r="3.5" fill="#8E9D6A" style="--dx:1px;--dy:29px;animation-delay:0.40s"/>
+    <circle class="dot" cx="704" cy="78" r="3.5" fill="#D3D8C8" style="--dx:3px;--dy:-22px;animation-delay:0.45s"/>
+    <circle class="dot" cx="704" cy="99" r="3.5" fill="#D3D8C8" style="--dx:-59px;--dy:-39px;animation-delay:0.50s"/>
+    <circle class="dot" cx="704" cy="120" r="3.5" fill="#8E9D6A" style="--dx:-72px;--dy:51px;animation-delay:0.55s"/>
+    <circle class="dot" cx="704" cy="141" r="3.5" fill="#D3D8C8" style="--dx:25px;--dy:3px;animation-delay:0.60s"/>
+    <circle class="dot" cx="704" cy="162" r="3.5" fill="#B4C191" style="--dx:-32px;--dy:6px;animation-delay:0.65s"/>
+    <circle class="dot" cx="726" cy="36" r="3.5" fill="#D3D8C8" style="--dx:59px;--dy:-9px;animation-delay:0.40s"/>
+    <circle class="dot" cx="726" cy="57" r="3.5" fill="#D3D8C8" style="--dx:44px;--dy:-9px;animation-delay:0.45s"/>
+    <circle class="dot" cx="726" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-37px;--dy:-39px;animation-delay:0.50s"/>
+    <circle class="dot" cx="726" cy="99" r="3.5" fill="#B4C191" style="--dx:63px;--dy:-53px;animation-delay:0.55s"/>
+    <circle class="dot" cx="726" cy="120" r="3.5" fill="#3B4731" style="--dx:54px;--dy:36px;animation-delay:0.60s"/>
+    <circle class="dot" cx="726" cy="141" r="3.5" fill="#8E9D6A" style="--dx:-27px;--dy:-21px;animation-delay:0.65s"/>
+    <circle class="dot" cx="726" cy="162" r="3.5" fill="#B4C191" style="--dx:-27px;--dy:-2px;animation-delay:0.70s"/>
+    <circle class="dot" cx="748" cy="36" r="3.5" fill="#8E9D6A" style="--dx:38px;--dy:-16px;animation-delay:0.45s"/>
+    <circle class="dot" cx="748" cy="57" r="3.5" fill="#D3D8C8" style="--dx:43px;--dy:-3px;animation-delay:0.50s"/>
+    <circle class="dot" cx="748" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-8px;--dy:-26px;animation-delay:0.55s"/>
+    <circle class="dot" cx="748" cy="99" r="3.5" fill="#3B4731" style="--dx:45px;--dy:-27px;animation-delay:0.60s"/>
+    <circle class="dot" cx="748" cy="120" r="3.5" fill="#B4C191" style="--dx:-75px;--dy:-5px;animation-delay:0.65s"/>
+    <circle class="dot" cx="748" cy="141" r="3.5" fill="#D3D8C8" style="--dx:13px;--dy:-46px;animation-delay:0.70s"/>
+    <circle class="dot" cx="748" cy="162" r="3.5" fill="#8E9D6A" style="--dx:-27px;--dy:-6px;animation-delay:0.75s"/>
+    <circle class="dot" cx="770" cy="36" r="3.5" fill="#B4C191" style="--dx:46px;--dy:-16px;animation-delay:0.50s"/>
+    <circle class="dot" cx="770" cy="57" r="3.5" fill="#B4C191" style="--dx:-56px;--dy:-14px;animation-delay:0.55s"/>
+    <circle class="dot" cx="770" cy="78" r="3.5" fill="#D3D8C8" style="--dx:37px;--dy:5px;animation-delay:0.60s"/>
+    <circle class="dot" cx="770" cy="99" r="3.5" fill="#8E9D6A" style="--dx:-71px;--dy:19px;animation-delay:0.65s"/>
+    <circle class="dot" cx="770" cy="120" r="3.5" fill="#3B4731" style="--dx:-54px;--dy:-15px;animation-delay:0.70s"/>
+    <circle class="dot" cx="770" cy="141" r="3.5" fill="#B4C191" style="--dx:-41px;--dy:-33px;animation-delay:0.75s"/>
+    <circle class="dot" cx="770" cy="162" r="3.5" fill="#B4C191" style="--dx:-30px;--dy:24px;animation-delay:0.80s"/>
+    <circle class="dot" cx="792" cy="36" r="3.5" fill="#B4C191" style="--dx:-36px;--dy:-14px;animation-delay:0.55s"/>
+    <circle class="dot" cx="792" cy="57" r="3.5" fill="#3B4731" style="--dx:24px;--dy:-37px;animation-delay:0.60s"/>
+    <circle class="dot" cx="792" cy="78" r="3.5" fill="#D3D8C8" style="--dx:-1px;--dy:44px;animation-delay:0.65s"/>
+    <circle class="dot" cx="792" cy="99" r="3.5" fill="#64744A" style="--dx:-19px;--dy:8px;animation-delay:0.70s"/>
+    <circle class="dot" cx="792" cy="120" r="3.5" fill="#8E9D6A" style="--dx:-63px;--dy:-14px;animation-delay:0.75s"/>
+    <circle class="dot" cx="792" cy="141" r="3.5" fill="#B4C191" style="--dx:7px;--dy:15px;animation-delay:0.80s"/>
+    <circle class="dot" cx="792" cy="162" r="3.5" fill="#8E9D6A" style="--dx:24px;--dy:38px;animation-delay:0.85s"/>
+  </g>
+  <text class="caption" x="795.5" y="194" text-anchor="end">LAST 12 WEEKS</text>
+</svg>
